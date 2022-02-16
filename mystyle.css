@@ -1,9 +1,26 @@
-body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
+
+        html {
+            background-color: rgb(240, 238, 118);
+        }
+        body{
+            font-family: 'Roboto', 'sans-serif';
+            color: rgb(15, 155, 33);
+        }
+        main{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: rgb(15, 155, 33);
+        }
+        .header404{
+            color: rgb(15, 155, 33);
+            font-family: 'Chango', cursive;
+            font-size: 48px;
+        }
+        .content404{
+            text-align: center;
+            color: rgb(15, 155, 33);
+            
+        }
