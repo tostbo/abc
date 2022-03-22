@@ -1,8 +1,8 @@
 var bgcolor;
-var button;
+//var button;
 
 function setup() {
-  createCanvas(200, 200);  
+//  createCanvas(200, 200);  
   bgcolor = color(200);
   createButton("go go go go");
 //  button.mousePressed(changeColor);
