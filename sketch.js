@@ -4,7 +4,7 @@ var button;
 function setup() {
   createCanvas(200, 200);  
   bgcolor = color(200);
-  button = createButton("go go go go");
+  createButton("go go go go");
   button.mousePressed(changeColor);
 }
 
@@ -18,7 +18,7 @@ function mousePressed() {
 }
 
 function draw() {
-  background(0);
+  background(bgcolor);
   fill(255, 0, 0);
   rect(100, 100, 50, 50);
 }
