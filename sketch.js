@@ -1,8 +1,12 @@
 function setup() {
   createCanvas(200, 200);  
-  createP("Text");
+  
 }
 
+function mousePressed() {
+  createP("this is text");
+
+}
 
 function draw() {
   background(0);
