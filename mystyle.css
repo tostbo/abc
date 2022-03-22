@@ -24,3 +24,6 @@
             color: rgb(15, 155, 33);
             
         }
+        canvas {
+        display: block;
+        }
