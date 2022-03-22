@@ -1,23 +1,12 @@
-//var bgcolor;
-//var button;
-
 function setup() {
-  createCanvas(200, 200);  
-//  bgcolor = color(200);
-//  createButton("go go go go");
-//  button.mousePressed(changeColor);
-}
-
-//function changeColor()  {
-//  bgcolor = color(random(255));
-}
-
-function mousePressed() {
-  createP("this is text");
+  createCanvas(400, 400);  
 }
 
 function draw() {
-  background(0);
-  fill(255, 0, 0);
-  rect(100, 100, 50, 50);
+  if (mouseIsPressed) {
+    fill(0);
+  } else {
+    fill(255);
+  }
+  ellipse(mouseX, mouseY, 80, 80);
 }
