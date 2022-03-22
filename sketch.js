@@ -8,8 +8,8 @@ function setup() {
 //  button.mousePressed(changeColor);
 }
 
-function changeColor()  {
-  bgcolor = color(random(255));
+//function changeColor()  {
+//  bgcolor = color(random(255));
 }
 
 function mousePressed() {
