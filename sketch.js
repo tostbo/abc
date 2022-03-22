@@ -1,7 +1,8 @@
 function setup() {
   createCanvas(200, 200);  
+  createP("Text");
 }
-  
+
 
 function draw() {
   background(0);
