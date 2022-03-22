@@ -2,15 +2,15 @@ var bgcolor;
 //var button;
 
 function setup() {
-//  createCanvas(200, 200);  
+  createCanvas(200, 200);  
   bgcolor = color(200);
   createButton("go go go go");
-//  button.mousePressed(changeColor);
+  button.mousePressed(changeColor);
 }
 
-//function changeColor()  {
-//  bgcolor = color(random(255));
-//}
+function changeColor()  {
+  bgcolor = color(random(255));
+}
 
 //function mousePressed() {
 //  createP("this is text");
